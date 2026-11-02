@@ -208,10 +208,12 @@ const volar = {
   entry: {
     'volar/sfc-route-blocks': './src/volar/entries/sfc-route-blocks.ts',
     'volar/sfc-typed-router': './src/volar/entries/sfc-typed-router.ts',
+    'content-mapper/sfc-typed-router':
+      './src/content-mapper/sfc-typed-router.ts',
   },
   deps: {
     // these are part of volar core
-    neverBundle: ['@vue/language-core', 'muggle-string', 'pathe'],
+    neverBundle: ['@vue/language-core', 'muggle-string', 'pathe', 'typescript'],
   },
   dts: true,
   sourcemap: false,

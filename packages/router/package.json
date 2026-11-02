@@ -120,6 +120,10 @@
       "types": "./dist/volar/sfc-typed-router.d.cts",
       "default": "./dist/volar/sfc-typed-router.cjs"
     },
+    "./content-mapper/sfc-typed-router": {
+      "types": "./dist/content-mapper/sfc-typed-router.d.cts",
+      "default": "./dist/content-mapper/sfc-typed-router.cjs"
+    },
     "./dist/*": "./dist/*"
   },
   "scripts": {
